@@ -2,13 +2,13 @@ import { FANTOM_MAINNET, FANTOM_TESTNET } from './fantom-chain.js';
 
 const mainConfig = {
     // app main title
-    title: 'Swap fUSD',
+    title: 'fUSD swap',
     // app description
     description: 'swap DAI for fUSD',
     // app keywords
     keywords: 'Fantom, fUDS, DAI, swap',
     // app code
-    code: 'swapfusd',
+    code: 'fusdswap',
     // default chain id
     chainId: FANTOM_MAINNET.chainId,
     useTestnet: false,
@@ -57,7 +57,7 @@ const mainConfig = {
     // pwa settings
     pwa: {
         // name used in pwa manifest
-        name: 'Swap fUSD',
+        name: 'fUSD swap',
         categories: ['finance'],
         mainColor: '#ffffff',
         description: 'swap DAI for fUSD',
