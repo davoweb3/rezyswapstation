@@ -1,0 +1,14 @@
+import { useGqlApi } from 'fantom-vue3-components';
+import { JSONDataGenerator } from 'jdg';
+
+const gqlApi = useGqlApi().gqlApi;
+
+export function {{ camelCase name }}Data() {
+    return JSONDataGenerator.generate();
+}
+
+export function get{{ pascalCase name }}() {
+    return gqlApi.queryMock({
+        mockFunction: () => {{ camelCase name }}Data(),
+    });
+}

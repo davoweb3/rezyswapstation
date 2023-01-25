@@ -1,0 +1,22 @@
+import gql from 'graphql-tag';
+import { useGqlApi } from 'fantom-vue3-components';
+
+const gqlApi = useGqlApi().gqlApi;
+
+export function {{ camelCase name }}(arg, options = {}) {
+    return gqlApi.mutation({
+        mutation: gql`
+            mutation ($arg: Bytes!) {
+                {{ camelCase name }}(arg: $arg) {
+                }
+            }
+        `,
+        variables: { arg },
+        options,
+        // pickFn: {{ camelCase name }}PickFn,
+    });
+}
+
+// export function {{ camelCase name }}PickFn(data) {
+//     return data?.{{ camelCase name }}?.foo;
+// }

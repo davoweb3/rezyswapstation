@@ -1,0 +1,16 @@
+{
+    "app": {
+        "home": "Home",
+        "swapForm": {
+            "pay": "Pay",
+            "receive": "Receive",
+            "submit": "Swap",
+            "swapping": "Swapping ...",
+            "approving": "DAI approving ...",
+            "notEnoughFUSD": "Not enough fUSD available"
+        },
+        "darkThemeSwitch": {
+            "label": "Dark Theme Switch"
+        }
+    }
+}

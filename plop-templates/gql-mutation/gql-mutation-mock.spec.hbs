@@ -1,0 +1,17 @@
+import { {{ camelCase name }} } from './{{ name }}.js';
+import { delay } from 'fantom-vue3-components';
+
+describe('{{ camelCase name }}() mock', () => {
+    it('should return expected outcome', async () => {
+        const { onDone, mutate } = {{ camelCase name }}();
+        let result;
+        onDone((res) => {
+            result = res;
+        });
+
+        mutate();
+        await delay();
+
+        expect(result).toEqual('');
+    });
+});

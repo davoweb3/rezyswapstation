@@ -1,0 +1,16 @@
+export const tokenAmountFieldPropDefaults = {
+    maxButtonLabel: '',
+    convertOutput: false,
+    showToken: false,
+    showBalance: false,
+    showBalancePrice: false,
+    showMaxButton: false,
+    disabled: false,
+    noMaxValidation: false,
+    subtractFromMax: 0,
+    inputTokenProps: {},
+    balanceTokenProps: {},
+    tokenPrice: 0,
+    fieldSize: '',
+    clas: '',
+};

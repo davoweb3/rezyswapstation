@@ -1,0 +1,12 @@
+import { delay } from 'fantom-vue3-components';
+import { get{{ pascalCase name }} } from './{{ name }}.js';
+
+describe('get{{ pascalCase name }}() mock', () => {
+    it('should return expected outcome', async () => {
+        const { data } = get{{ pascalCase name }}();
+
+        await delay();
+
+        expect(data.value).toBe('');
+    });
+});

@@ -1,0 +1,11 @@
+{
+  "name": "web3-wallets",
+  "version": "0.1.0",
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^3.6.0",
+    "@ledgerhq/hw-transport-u2f": "^5.36.0-deprecated",
+    "@ledgerhq/hw-transport-webhid": "^6.27.8",
+    "@metamask/detect-provider": "^2.0.0",
+    "fantom-clientjs-utils": "github:skavel/Fantom_ClientJS_Utils"
+  }
+}

@@ -1,0 +1,23 @@
+import gql from 'graphql-tag';
+import { useGqlApi } from 'fantom-vue3-components';
+
+const gqlApi = useGqlApi().gqlApi;
+
+export function get{{ pascalCase name }}({ additionalFields = [], disabled = false }) {
+    return gqlApi.query({
+        query: gql`
+            query Get{{ pascalCase name }} {
+                ${additionalFields.join('\n')}
+            }
+        `,
+        // variables: {},
+        disabled,
+        // defaultData: [],
+        // pickFn: get{{ pascalCase name }}PickFn,
+        // clientId: 'fantom',
+    });
+}
+
+// export function get{{ pascalCase name }}PickFn(data) {
+//    return data?.foo?.edges.map((edge) => edge.delegation);
+// }

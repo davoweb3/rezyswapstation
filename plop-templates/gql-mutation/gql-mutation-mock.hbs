@@ -1,0 +1,21 @@
+import { constantTemplate, JSONDataGenerator, objectTemplate } from 'jdg';
+import { useGqlApi } from 'fantom-vue3-components';
+
+const gqlApi = useGqlApi().gqlApi;
+
+export function {{ camelCase name }}Data() {
+    return JSONDataGenerator.generate(
+        objectTemplate({
+            {{ camelCase name }}: objectTemplate({
+                __typename: constantTemplate('Foo'),
+            }),
+        })
+    );
+}
+
+export function {{ camelCase name }}() {
+    return gqlApi.mutationMock({
+        mockFunction: () => {{ camelCase name }}Data(),
+        // pickFn: {{ camelCase name }}PickFn,
+    });
+}
