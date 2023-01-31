@@ -3,7 +3,7 @@ import '@/modules/account/api/register.js';
 import '@/common/api/register.js';
 
 /**
- * @typedef {WalletApiQueries, AccountsApiQueries, BlocksApiQueries, CommonApiQueries} ApiQueries
+ * @typedef {WalletApiQueries, AccountsApiQueries, CommonApiQueries} ApiQueries
  */
 
 /**

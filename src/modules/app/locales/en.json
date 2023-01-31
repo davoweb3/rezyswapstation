@@ -11,6 +11,11 @@
         },
         "darkThemeSwitch": {
             "label": "Dark Theme Switch"
+        },
+        "appMainView": {
+            "heading": "Swap DAI for fUSD",
+            "text1": "We created this tool to swap DAI and receive fUSD in 1:1 ratio.",
+            "text2": "You can then use fUSD to pay back your debt."
         }
     }
 }

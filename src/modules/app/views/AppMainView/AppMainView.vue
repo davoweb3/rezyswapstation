@@ -24,10 +24,11 @@ function onSwapFinished() {
     <div class="appmainview main">
         <AppHeader />
         <main>
-            <h1>Swap DAI for fUSD</h1>
+            <h1>{{ $t('app.appMainView.heading') }}</h1>
             <p class="tea-center">
-                We created this tool to swap DAI and receive fUSD in 1:1 ratio. <br />
-                You can then use fUSD to pay back your debt.
+                {{ $t('app.appMainView.text1') }}
+                <br />
+                {{ $t('app.appMainView.text2') }}
             </p>
             <FCard class="appmainview_swapform">
                 <SwapFormC @swap-finished="onSwapFinished" :key="key" />
