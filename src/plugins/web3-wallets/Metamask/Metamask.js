@@ -3,6 +3,7 @@ import detectEthereumProvider from '@metamask/detect-provider';
 import { toHex } from '@/utils/big-number/big-number.js';
 import { FANTOM_MAINNET, FANTOM_TESTNET } from '@/config/fantom-chain.js';
 import { addressesMatch } from '@/utils/account/account.js';
+import { delay } from 'fantom-vue3-components';
 // import { ethers } from 'ethers';
 
 export class Metamask extends Web3Wallet {
@@ -187,6 +188,8 @@ export class Metamask extends Web3Wallet {
 
     async #setChainId() {
         const provider = this.#provider;
+
+        await delay(100);
 
         if (provider) {
             this.chainId = provider.chainId || this.#defaulChainId;
