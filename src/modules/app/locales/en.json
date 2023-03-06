@@ -2,20 +2,20 @@
     "app": {
         "home": "Home",
         "swapForm": {
-            "pay": "Pay",
-            "receive": "Receive",
+            "pay": "You Pay",
+            "receive": "You Receive",
             "submit": "Swap",
             "swapping": "Swapping ...",
-            "approving": "DAI approving ...",
-            "notEnoughFUSD": "Not enough fUSD available"
+            "approving": "PET approving ...",
+            "notEnoughFUSD": "Not enough fUSD available on the Treasury"
         },
         "darkThemeSwitch": {
             "label": "Dark Theme Switch"
         },
         "appMainView": {
-            "heading": "Swap DAI for fUSD",
-            "text1": "We created this tool to swap DAI and receive fUSD in 1:1 ratio.",
-            "text2": "You can then use fUSD to pay back your debt."
+            "heading": "Rezy Swap Station, here you can swap your PET tokens for fUSD",
+            "text1": "We created this tool to swap PET and receive fUSD in 1:1 ratio.",
+            "text2": "You may use it for exchanging "
         }
     }
 }

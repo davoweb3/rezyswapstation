@@ -1,9 +1,9 @@
 export function DAI_TOKEN() {
     return {
-        symbol: 'DAI',
-        logo: 'https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.svg?v=024',
+        symbol: 'PET',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/archive/7/7b/20221025085828%21Recycling_symbol.svg/120px-Recycling_symbol.svg.png',
         decimals: 18,
-        address: '0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E',
+        address: '0x2936C1Af841F61cf6489B5B989c5070b2b6A2Df5',
     };
 }
 
@@ -12,7 +12,7 @@ export function FUSD_TOKEN() {
         symbol: 'fUSD',
         logo: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg stroke='none' stroke-width='1' fill='%231969FF' fill-rule='evenodd'%3E%3Cpath d='M29.8 13.4h2a16 16 0 0 1-24.5 16 73 73 0 0 0 1.6-2.7 12.9 12.9 0 0 0 19.8-13.3h1.1Zm-5-10.8A73 73 0 0 0 23 5.3 12.9 12.9 0 0 0 3.3 18.6H.2a16 16 0 0 1 24.5-16Z'/%3E%3Cpath d='M16.2 11c1.9 0 3 .5 3.7.7l.7-2.8c-.8-.4-2-.7-3.6-.8V5.9h-2.5v2.4c-2.7.5-4.2 2.2-4.2 4.4 0 2.4 1.8 3.7 4.5 4.6 1.9.6 2.7 1.2 2.7 2.1 0 1-1 1.6-2.5 1.6-1.6 0-3.1-.6-4.1-1l-.8 2.8c1 .6 2.6 1 4.3 1.1v2.4H17v-2.6c3-.4 4.5-2.4 4.5-4.6 0-2.2-1.2-3.6-4.2-4.7-2.2-.7-3-1.3-3-2.1-.1-.7.4-1.4 2-1.4Z'/%3E%3C/g%3E%3C/svg%3E",
         decimals: 18,
-        address: '0xAd84341756Bf337f5a0164515b1f6F993D194E1f',
+        address: '0x39D974c8307e7E194Ed6C5258DfC9D8b0648A158',
     };
 }
 
