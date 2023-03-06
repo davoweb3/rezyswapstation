@@ -11,7 +11,7 @@ const mainConfig = {
     code: 'fusdswap',
     // default chain id
     chainId: FANTOM_MAINNET.chainId,
-    useTestnet: false,
+    useTestnet: true,
     useWebHashHistory: false,
     // apollo client settings
     apollo: {
